@@ -23,4 +23,6 @@ function addNewLiOnClick() {
   function (event) {
     addNewElementAsLi();
   });
+  let myWork=document.querySelector('input[type="text"]');
+  
 }

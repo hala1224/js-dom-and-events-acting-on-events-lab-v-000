@@ -22,9 +22,20 @@ function addNewLiOnClick() {
   press.addEventListener("click",
   function (event) {
     addNewElementAsLi();
-     let myWork=document.querySelector('input[type="text"]');
-  myWork.value='';
+    let clear=document.querySelector('input[type="text"]');
+    clear.value='';
   });
   // let myWork=document.querySelector('input[type="text"]');
   // myWork.value='';
+}
+function clearEmployeeListOnLinkClick() {
+  let press=document.querySelector('input[type="submit"]');
+  press.addEventListener("click",
+  function (event) {
+    addNewElementAsLi();
+    let clear=document.querySelector('input[type="text"]');
+    clear.value='';
+  });
+  
+  
 }

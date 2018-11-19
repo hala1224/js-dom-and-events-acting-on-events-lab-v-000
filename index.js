@@ -34,6 +34,7 @@ function clearEmployeeListOnLinkClick() {
    button.addEventListener("click",
   function (event) {
     ul.remove();
+    ul.innerHTML='';
 
   });
   

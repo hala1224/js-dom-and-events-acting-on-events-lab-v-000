@@ -22,7 +22,9 @@ function addNewLiOnClick() {
   press.addEventListener("click",
   function (event) {
     addNewElementAsLi();
-  });
-  let myWork=document.querySelector('input[type="text"]');
+     let myWork=document.querySelector('input[type="text"]');
   myWork.value='';
+  });
+  // let myWork=document.querySelector('input[type="text"]');
+  // myWork.value='';
 }

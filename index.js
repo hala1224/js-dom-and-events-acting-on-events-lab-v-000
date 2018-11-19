@@ -18,7 +18,7 @@ function addNewElementAsLi(){
 }
 
 function addNewLiOnClick() {
-  let main=document.getElementById('ul');
+  let main=document.getElementById('ul class="empoyee-list"');
   main.addEventListener("click",
   function (event) {
     retrieveEmployeeInformation();

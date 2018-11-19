@@ -20,11 +20,9 @@ function addNewElementAsLi(){
 function addNewLiOnClick() {
    let ul = document.querySelector('ul');
    let button = document.querySelector('a');
-   press.addEventListener("click",
+   ul.button.addEventListener("click",
   function (event) {
-    addNewElementAsLi();
-    let clear=document.querySelector('input[type="text"]');
-    clear.value='';
+    event.remove();
   });
   // let myWork=document.querySelector('input[type="text"]');
   // myWork.value='';

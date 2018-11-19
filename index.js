@@ -13,12 +13,12 @@ function retrieveEmployeeInformation() {
 
 
 function addNewElementAsLi(){
-  let employeeName = retrieveEmployeeInformation()
+  let employeeName = retrieveEmployeeInformation();
   document.querySelector('.employee-list').insertAdjacentHTML('beforeend', `<li>${employeeName}</li>`);
 }
 
 function addNewLiOnClick() {
-  const main=document.getElementById('main');
+  let main=document.getElementById('main');
   main.addEventListener("click",
   function (event) {
     retrieveEmployeeInformation();

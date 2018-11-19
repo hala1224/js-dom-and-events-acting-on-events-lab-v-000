@@ -19,7 +19,7 @@ function addNewElementAsLi(){
 
 function addNewLiOnClick() {
   let press=document.querySelector('input[type="submit"]');
-  main.addEventListener("click",
+  press.addEventListener("click",
   function (event) {
     addNewElementAsLi();
   });

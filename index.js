@@ -24,5 +24,5 @@ function addNewLiOnClick() {
     addNewElementAsLi();
   });
   let myWork=document.querySelector('input[type="text"]');
-  
+  myWork.value='';
 }
